@@ -16,7 +16,8 @@ Alternatively, you can download the source code and install it manually:
 
 ```r
 # Download and unzip the source code
-install.packages("path/to/ffread")
+# Assuming the source code is downloaded and unzipped in the current directory
+devtools::install_local("ffread")
 ```
 
 ## Usage
@@ -26,9 +27,8 @@ Here is an example of how to use the `ffread` function with a large public datas
 ### Example: Using New York City Taxi Trip Data
 
 ```r
-# Load required libraries
+# Load the required library
 library(ffread)
-library(data.table)
 
 # Download the NYC Taxi Trip Data
 download.file("https://s3.amazonaws.com/nyc-tlc/trip+data/yellow_tripdata_2020-01.csv", "nyc_taxi.csv")
