@@ -1,0 +1,15 @@
+Package: ffread
+Type: Package
+Title: Extension of data.table::fread() for Efficient Large File Reading with Filtering
+Version: 0.1.0
+Description: This package provides an extension of the 'data.table::fread' function, allowing for efficient reading of large datasets with specific filtering capabilities. The 'ffread' function enhances 'fread' by enabling users to read only the necessary rows based on a specified key and value, optimizing the data loading process for large files.
+Depends: R (>= 3.5.0)
+Imports:
+    data.table (>= 1.12.8)
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Authors@R: 
+    person("Alejandro", "Verri Kozlowski", , "averri@fi.uba.ar", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8535-1170"))
