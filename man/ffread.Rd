@@ -4,7 +4,7 @@
 \alias{ffread}
 \title{Title}
 \usage{
-ffread(file, key, value, ...)
+ffread(file, key, value, index = NULL, rows = NULL, ...)
 }
 \arguments{
 \item{file}{character. Path to the file to read}
